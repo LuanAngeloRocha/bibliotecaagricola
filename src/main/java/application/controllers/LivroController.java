@@ -9,7 +9,7 @@ import application.repositories.LivroRepository;
 import org.springframework.ui.Model;
 
 @Controller
-@RequestMapping
+@RequestMapping('/livro')
 public class LivroController {
 @Autowired
 private LivroRepository livrosRepo;
